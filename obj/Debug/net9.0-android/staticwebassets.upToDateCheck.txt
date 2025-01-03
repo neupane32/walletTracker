@@ -1,0 +1,8 @@
+D:\ad coursework\walletTracker\wwwroot\css\app.css
+D:\ad coursework\walletTracker\wwwroot\index.html
+D:\ad coursework\walletTracker\wwwroot\css\bootstrap\bootstrap.min.css.map
+D:\ad coursework\walletTracker\wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\index.html
