@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace dotnet_project
+namespace practice
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

@@ -1,4 +1,4 @@
-﻿namespace dotnet_project
+﻿namespace practice
 {
     public partial class MainPage : ContentPage
     {

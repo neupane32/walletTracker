@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace dotnet_project
+namespace practice
 {
     public class Program
     {

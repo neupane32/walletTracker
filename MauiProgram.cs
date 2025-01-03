@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace dotnet_project
+namespace practice
 {
     public static class MauiProgram
     {
@@ -14,6 +14,7 @@ namespace dotnet_project
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 });
 
+            builder.Services.AddSingleton<UserService>();
             builder.Services.AddMauiBlazorWebView();
 
 #if DEBUG
