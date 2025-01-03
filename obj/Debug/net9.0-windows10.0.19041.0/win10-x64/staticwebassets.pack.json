@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css",
+      "Id": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css",
       "PackagePath": "staticwebassets\\practice.styles.css"
     },
     {
-      "Id": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\app.css",
+      "Id": "D:\\ApplicationDevelopment\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\favicon.png",
+      "Id": "D:\\ApplicationDevelopment\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\index.html",
+      "Id": "D:\\ApplicationDevelopment\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

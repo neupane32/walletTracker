@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tjctG2UvFWzh6ml12pa5j9XwodXAHPNJVP01uWfwm4Q=",
+  "Hash": "mMaDUgOsZorCd+AXcTWmFFeroVPOs/VWl7unio627Oo=",
   "Source": "practice",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,17 @@
     {
       "Name": "practice\\wwwroot",
       "Source": "practice",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\60ikskirtt-c69jagxj4a.gz",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\60ikskirtt-c69jagxj4a.gz",
       "SourceId": "practice",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
       "RelativePath": "practice#[.{fingerprint=c69jagxj4a}]?.styles.css.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "ky3q3zs95d",
       "Integrity": "dBoNpKTv0bbO0BHLXDLanGccVK++XgDmzkSKZvcGsbI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
       "RelativePath": "css/app#[.{fingerprint=e5tk7yf482}]?.css.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\app.css",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\wwwroot\\css\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "9sb0w9jnhl",
       "Integrity": "qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\app.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\wwwroot\\css\\app.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\lukbkd53wh-mij3y71tqv.gz",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\lukbkd53wh-mij3y71tqv.gz",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
       "RelativePath": "index#[.{fingerprint=mij3y71tqv}]?.html.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\index.html",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "jzojcpo7l2",
       "Integrity": "wSpqPIEGwiKCw8NzteZa7KPRsUoYpyNpxcSWNW3VmgA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\index.html"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\phghmf4tss-8inm30yfxf.gz",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\phghmf4tss-8inm30yfxf.gz",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "fbl5ivwo6k",
       "Integrity": "Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\60ikskirtt-c69jagxj4a.br",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\60ikskirtt-c69jagxj4a.br",
       "SourceId": "practice",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
       "RelativePath": "practice#[.{fingerprint=c69jagxj4a}]?.styles.css.br",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "veah0hzdqa",
       "Integrity": "CV20KWp/pvD9xmXhcjz/OJi0VlJHmFH6M1dQ7l/jUDA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\h5tmtzvkk7-e5tk7yf482.br",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\h5tmtzvkk7-e5tk7yf482.br",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
       "RelativePath": "css/app#[.{fingerprint=e5tk7yf482}]?.css.br",
       "AssetKind": "All",
@@ -133,20 +133,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\app.css",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\wwwroot\\css\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "ix9166x7gh",
       "Integrity": "eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\app.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\wwwroot\\css\\app.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
       "RelativePath": "index#[.{fingerprint=mij3y71tqv}]?.html.br",
       "AssetKind": "All",
@@ -154,20 +154,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\index.html",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "jamipcg050",
       "Integrity": "W6rT5gGiAmFahCtFZ2FdKj0k6xAt2IuHIY9gjbEJoB4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\index.html"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\phghmf4tss-8inm30yfxf.br",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\phghmf4tss-8inm30yfxf.br",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.br",
       "AssetKind": "All",
@@ -175,20 +175,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "b4a1wrn6r6",
       "Integrity": "e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\qy0quqqzev-6gzpyzhau4.br",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\qy0quqqzev-6gzpyzhau4.br",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint=6gzpyzhau4}]?.css.br",
       "AssetKind": "All",
@@ -196,20 +196,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "2o883p7o84",
       "Integrity": "4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\u6wqrx5djw-c69jagxj4a.br",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\u6wqrx5djw-c69jagxj4a.br",
       "SourceId": "practice",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
       "RelativePath": "practice#[.{fingerprint=c69jagxj4a}]!.bundle.scp.css.br",
       "AssetKind": "All",
@@ -217,20 +217,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "veah0hzdqa",
       "Integrity": "CV20KWp/pvD9xmXhcjz/OJi0VlJHmFH6M1dQ7l/jUDA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint=6gzpyzhau4}]?.css.gz",
       "AssetKind": "All",
@@ -238,20 +238,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "joqzyw7ssu",
       "Integrity": "LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
       "SourceId": "practice",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
       "RelativePath": "practice#[.{fingerprint=c69jagxj4a}]!.bundle.scp.css.gz",
       "AssetKind": "All",
@@ -259,20 +259,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "ky3q3zs95d",
       "Integrity": "dBoNpKTv0bbO0BHLXDLanGccVK++XgDmzkSKZvcGsbI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css",
       "SourceId": "practice",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "practice#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -287,13 +287,13 @@
       "Integrity": "NA/EFeIoS1dcUI+dxUBp49fXM84RNoeEaIbYR2oRmq4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css",
       "SourceId": "practice",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "practice#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -308,13 +308,13 @@
       "Integrity": "NA/EFeIoS1dcUI+dxUBp49fXM84RNoeEaIbYR2oRmq4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\app.css",
+      "Identity": "D:\\ApplicationDevelopment\\wwwroot\\css\\app.css",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\favicon.png",
+      "Identity": "D:\\ApplicationDevelopment\\wwwroot\\favicon.png",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\index.html",
+      "Identity": "D:\\ApplicationDevelopment\\wwwroot\\index.html",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -419,7 +419,7 @@
   "Endpoints": [
     {
       "Route": "css/app.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -474,7 +474,7 @@
     },
     {
       "Route": "css/app.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\h5tmtzvkk7-e5tk7yf482.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\h5tmtzvkk7-e5tk7yf482.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -529,7 +529,7 @@
     },
     {
       "Route": "css/app.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\app.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -566,7 +566,7 @@
     },
     {
       "Route": "css/app.css.br",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\h5tmtzvkk7-e5tk7yf482.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\h5tmtzvkk7-e5tk7yf482.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -611,7 +611,7 @@
     },
     {
       "Route": "css/app.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -656,7 +656,7 @@
     },
     {
       "Route": "css/app.e5tk7yf482.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -719,7 +719,7 @@
     },
     {
       "Route": "css/app.e5tk7yf482.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\h5tmtzvkk7-e5tk7yf482.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\h5tmtzvkk7-e5tk7yf482.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -782,7 +782,7 @@
     },
     {
       "Route": "css/app.e5tk7yf482.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\app.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -827,7 +827,7 @@
     },
     {
       "Route": "css/app.e5tk7yf482.css.br",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\h5tmtzvkk7-e5tk7yf482.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\h5tmtzvkk7-e5tk7yf482.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -880,7 +880,7 @@
     },
     {
       "Route": "css/app.e5tk7yf482.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -933,7 +933,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\qy0quqqzev-6gzpyzhau4.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\qy0quqqzev-6gzpyzhau4.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -996,7 +996,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1059,7 +1059,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1104,7 +1104,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css.br",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\qy0quqqzev-6gzpyzhau4.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\qy0quqqzev-6gzpyzhau4.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1210,7 +1210,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\qy0quqqzev-6gzpyzhau4.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\qy0quqqzev-6gzpyzhau4.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1265,7 +1265,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1320,7 +1320,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1357,7 +1357,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\phghmf4tss-8inm30yfxf.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\phghmf4tss-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1420,7 +1420,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\phghmf4tss-8inm30yfxf.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\phghmf4tss-8inm30yfxf.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1483,7 +1483,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1528,7 +1528,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map.br",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\phghmf4tss-8inm30yfxf.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\phghmf4tss-8inm30yfxf.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1581,7 +1581,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\phghmf4tss-8inm30yfxf.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\phghmf4tss-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1634,7 +1634,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.br",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\qy0quqqzev-6gzpyzhau4.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\qy0quqqzev-6gzpyzhau4.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1679,7 +1679,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1724,7 +1724,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\phghmf4tss-8inm30yfxf.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\phghmf4tss-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1779,7 +1779,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\phghmf4tss-8inm30yfxf.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\phghmf4tss-8inm30yfxf.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1834,7 +1834,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1871,7 +1871,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map.br",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\phghmf4tss-8inm30yfxf.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\phghmf4tss-8inm30yfxf.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1916,7 +1916,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\phghmf4tss-8inm30yfxf.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\phghmf4tss-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1961,7 +1961,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2006,7 +2006,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2043,7 +2043,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\lukbkd53wh-mij3y71tqv.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\lukbkd53wh-mij3y71tqv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2098,7 +2098,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2153,7 +2153,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\index.html",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2190,7 +2190,7 @@
     },
     {
       "Route": "index.html.br",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2235,7 +2235,7 @@
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\lukbkd53wh-mij3y71tqv.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\lukbkd53wh-mij3y71tqv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2280,7 +2280,7 @@
     },
     {
       "Route": "index.mij3y71tqv.html",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\lukbkd53wh-mij3y71tqv.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\lukbkd53wh-mij3y71tqv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2343,7 +2343,7 @@
     },
     {
       "Route": "index.mij3y71tqv.html",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2406,7 +2406,7 @@
     },
     {
       "Route": "index.mij3y71tqv.html",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\index.html",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2451,7 +2451,7 @@
     },
     {
       "Route": "index.mij3y71tqv.html.br",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2504,7 +2504,7 @@
     },
     {
       "Route": "index.mij3y71tqv.html.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\lukbkd53wh-mij3y71tqv.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\lukbkd53wh-mij3y71tqv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2557,7 +2557,7 @@
     },
     {
       "Route": "practice.bundle.scp.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\u6wqrx5djw-c69jagxj4a.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\u6wqrx5djw-c69jagxj4a.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2612,7 +2612,7 @@
     },
     {
       "Route": "practice.bundle.scp.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2667,7 +2667,7 @@
     },
     {
       "Route": "practice.bundle.scp.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2704,7 +2704,7 @@
     },
     {
       "Route": "practice.bundle.scp.css.br",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\u6wqrx5djw-c69jagxj4a.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\u6wqrx5djw-c69jagxj4a.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2749,7 +2749,7 @@
     },
     {
       "Route": "practice.bundle.scp.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2794,7 +2794,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.bundle.scp.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\u6wqrx5djw-c69jagxj4a.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\u6wqrx5djw-c69jagxj4a.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2857,7 +2857,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.bundle.scp.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2920,7 +2920,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.bundle.scp.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\practice.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2965,7 +2965,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.bundle.scp.css.br",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\u6wqrx5djw-c69jagxj4a.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\u6wqrx5djw-c69jagxj4a.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3018,7 +3018,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.bundle.scp.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3071,7 +3071,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.styles.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\60ikskirtt-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\60ikskirtt-c69jagxj4a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3134,7 +3134,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.styles.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\60ikskirtt-c69jagxj4a.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\60ikskirtt-c69jagxj4a.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3197,7 +3197,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.styles.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3242,7 +3242,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.styles.css.br",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\60ikskirtt-c69jagxj4a.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\60ikskirtt-c69jagxj4a.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3295,7 +3295,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.styles.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\60ikskirtt-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\60ikskirtt-c69jagxj4a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3348,7 +3348,7 @@
     },
     {
       "Route": "practice.styles.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\60ikskirtt-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\60ikskirtt-c69jagxj4a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3403,7 +3403,7 @@
     },
     {
       "Route": "practice.styles.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\60ikskirtt-c69jagxj4a.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\60ikskirtt-c69jagxj4a.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3458,7 +3458,7 @@
     },
     {
       "Route": "practice.styles.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\practice.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3495,7 +3495,7 @@
     },
     {
       "Route": "practice.styles.css.br",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\publish\\60ikskirtt-c69jagxj4a.br",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\publish\\60ikskirtt-c69jagxj4a.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3540,7 +3540,7 @@
     },
     {
       "Route": "practice.styles.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-android\\compressed\\60ikskirtt-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-android\\compressed\\60ikskirtt-c69jagxj4a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {

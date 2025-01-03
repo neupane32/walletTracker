@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w4ft2R/iHtI=",
+  "dgSpecHash": "msUTX7pZrD8=",
   "success": true,
-  "projectFilePath": "D:\\ApplicationDevelopment\\walletTracker\\practice.csproj",
+  "projectFilePath": "D:\\ApplicationDevelopment\\practice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kunal\\.nuget\\packages\\googlegson\\2.11.0.3\\googlegson.2.11.0.3.nupkg.sha512",
     "C:\\Users\\kunal\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.0\\microsoft.aspnetcore.authorization.9.0.0.nupkg.sha512",

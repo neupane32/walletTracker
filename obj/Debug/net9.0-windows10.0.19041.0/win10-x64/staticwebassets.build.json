@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HNgQlJ2sG9duijbg87JC3JLHoeq9CjqZbEE+UcvWv8c=",
+  "Hash": "C4YknT7wZdAvxZYea+Ugd2I4i/TOXUTOHF9+21mRlZ8=",
   "Source": "practice",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,17 @@
     {
       "Name": "practice\\wwwroot",
       "Source": "practice",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\60ikskirtt-c69jagxj4a.gz",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\60ikskirtt-c69jagxj4a.gz",
       "SourceId": "practice",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
       "RelativePath": "practice#[.{fingerprint=c69jagxj4a}]?.styles.css.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "ky3q3zs95d",
       "Integrity": "dBoNpKTv0bbO0BHLXDLanGccVK++XgDmzkSKZvcGsbI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
       "RelativePath": "css/app#[.{fingerprint=e5tk7yf482}]?.css.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\app.css",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\wwwroot\\css\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "9sb0w9jnhl",
       "Integrity": "qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\app.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\wwwroot\\css\\app.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
       "RelativePath": "index#[.{fingerprint=mij3y71tqv}]?.html.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\index.html",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "jzojcpo7l2",
       "Integrity": "wSpqPIEGwiKCw8NzteZa7KPRsUoYpyNpxcSWNW3VmgA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\index.html"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\phghmf4tss-8inm30yfxf.gz",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\phghmf4tss-8inm30yfxf.gz",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "fbl5ivwo6k",
       "Integrity": "Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint=6gzpyzhau4}]?.css.gz",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "joqzyw7ssu",
       "Integrity": "LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
       "SourceId": "practice",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
       "RelativePath": "practice#[.{fingerprint=c69jagxj4a}]!.bundle.scp.css.gz",
       "AssetKind": "All",
@@ -133,20 +133,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\practice.bundle.scp.css",
+      "RelatedAsset": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\practice.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "ky3q3zs95d",
       "Integrity": "dBoNpKTv0bbO0BHLXDLanGccVK++XgDmzkSKZvcGsbI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\practice.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\practice.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css",
       "SourceId": "practice",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "practice#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -161,13 +161,13 @@
       "Integrity": "NA/EFeIoS1dcUI+dxUBp49fXM84RNoeEaIbYR2oRmq4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\practice.bundle.scp.css",
+      "Identity": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\practice.bundle.scp.css",
       "SourceId": "practice",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "practice#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -182,13 +182,13 @@
       "Integrity": "NA/EFeIoS1dcUI+dxUBp49fXM84RNoeEaIbYR2oRmq4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\practice.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\practice.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\app.css",
+      "Identity": "D:\\ApplicationDevelopment\\wwwroot\\css\\app.css",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\favicon.png",
+      "Identity": "D:\\ApplicationDevelopment\\wwwroot\\favicon.png",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\index.html",
+      "Identity": "D:\\ApplicationDevelopment\\wwwroot\\index.html",
       "SourceId": "practice",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\",
+      "ContentRoot": "D:\\ApplicationDevelopment\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -293,7 +293,7 @@
   "Endpoints": [
     {
       "Route": "css/app.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -348,7 +348,7 @@
     },
     {
       "Route": "css/app.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\app.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -385,7 +385,7 @@
     },
     {
       "Route": "css/app.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -430,7 +430,7 @@
     },
     {
       "Route": "css/app.e5tk7yf482.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -493,7 +493,7 @@
     },
     {
       "Route": "css/app.e5tk7yf482.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\app.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -538,7 +538,7 @@
     },
     {
       "Route": "css/app.e5tk7yf482.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\h5tmtzvkk7-e5tk7yf482.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -591,7 +591,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -654,7 +654,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -699,7 +699,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -752,7 +752,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -807,7 +807,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -844,7 +844,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\phghmf4tss-8inm30yfxf.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\phghmf4tss-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -907,7 +907,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -952,7 +952,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\phghmf4tss-8inm30yfxf.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\phghmf4tss-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1005,7 +1005,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qy0quqqzev-6gzpyzhau4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1050,7 +1050,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\phghmf4tss-8inm30yfxf.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\phghmf4tss-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1105,7 +1105,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1142,7 +1142,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\phghmf4tss-8inm30yfxf.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\phghmf4tss-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1187,7 +1187,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1232,7 +1232,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1324,7 +1324,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\index.html",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1361,7 +1361,7 @@
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1406,7 +1406,7 @@
     },
     {
       "Route": "index.mij3y71tqv.html",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1469,7 +1469,7 @@
     },
     {
       "Route": "index.mij3y71tqv.html",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\wwwroot\\index.html",
+      "AssetFile": "D:\\ApplicationDevelopment\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1514,7 +1514,7 @@
     },
     {
       "Route": "index.mij3y71tqv.html.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1567,7 +1567,7 @@
     },
     {
       "Route": "practice.bundle.scp.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1622,7 +1622,7 @@
     },
     {
       "Route": "practice.bundle.scp.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\practice.bundle.scp.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\practice.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1659,7 +1659,7 @@
     },
     {
       "Route": "practice.bundle.scp.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1704,7 +1704,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.bundle.scp.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1767,7 +1767,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.bundle.scp.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\practice.bundle.scp.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\practice.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1812,7 +1812,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.bundle.scp.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\u6wqrx5djw-c69jagxj4a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1865,7 +1865,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.styles.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\60ikskirtt-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\60ikskirtt-c69jagxj4a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1928,7 +1928,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.styles.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1973,7 +1973,7 @@
     },
     {
       "Route": "practice.c69jagxj4a.styles.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\60ikskirtt-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\60ikskirtt-c69jagxj4a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2026,7 +2026,7 @@
     },
     {
       "Route": "practice.styles.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\60ikskirtt-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\60ikskirtt-c69jagxj4a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2081,7 +2081,7 @@
     },
     {
       "Route": "practice.styles.css",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\practice.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2118,7 +2118,7 @@
     },
     {
       "Route": "practice.styles.css.gz",
-      "AssetFile": "D:\\ApplicationDevelopment\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\60ikskirtt-c69jagxj4a.gz",
+      "AssetFile": "D:\\ApplicationDevelopment\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\60ikskirtt-c69jagxj4a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {

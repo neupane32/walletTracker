@@ -34705,11 +34705,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ApplicationDevelopment\\walletTracker\\practice.csproj",
+      "projectUniqueName": "D:\\ApplicationDevelopment\\practice.csproj",
       "projectName": "practice",
-      "projectPath": "D:\\ApplicationDevelopment\\walletTracker\\practice.csproj",
+      "projectPath": "D:\\ApplicationDevelopment\\practice.csproj",
       "packagesPath": "C:\\Users\\kunal\\.nuget\\packages\\",
-      "outputPath": "D:\\ApplicationDevelopment\\walletTracker\\obj\\",
+      "outputPath": "D:\\ApplicationDevelopment\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
