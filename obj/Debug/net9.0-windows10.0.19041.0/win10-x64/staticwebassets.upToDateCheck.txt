@@ -1,9 +1,0 @@
-D:\ApplicationDevelopment\wwwroot\css\app.css
-D:\ApplicationDevelopment\wwwroot\index.html
-D:\ApplicationDevelopment\wwwroot\css\bootstrap\bootstrap.min.css.map
-D:\ApplicationDevelopment\wwwroot\css\bootstrap\bootstrap.min.css
-wwwroot\css\app.css
-wwwroot\css\bootstrap\bootstrap.min.css
-wwwroot\css\bootstrap\bootstrap.min.css.map
-wwwroot\favicon.png
-wwwroot\index.html
