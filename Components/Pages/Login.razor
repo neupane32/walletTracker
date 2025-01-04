@@ -5,9 +5,32 @@
 @inject UserService UserService
 @inject NavigationManager NavigationManager
 
+<style>
+    body {
+        background-color: #CCEEFF; /* Lighter sky blue */
+    }
+
+    .form-container {
+        background-color: #CCEEFF; 
+        border-radius: 10px;
+    }
+
+    .form-control {
+        background-color: #CCEEFF; 
+        border: 1px solid #66B3FF; 
+        color: #333; 
+    }
+
+        .form-control:focus {
+            background-color: #99D1FF; 
+            border-color: #0099FF; 
+            box-shadow: 0 0 5px rgba(0, 153, 255, 0.5); 
+        }
+</style>
+
 <div class="container mt-5 d-flex justify-content-center">
-    <div class="card shadow-lg p-4" style="width: 400px;">
-        <h3 class="text-center mb-4">Login</h3>
+    <div class="card shadow-lg p-4 form-container" style="width: 400px;">
+        <h3 class="text-center mb-4">Login to <br /> Wallet Tracker</h3>
 
         <div class="mb-3">
             <label for="username" class="form-label">Your Username</label>
@@ -56,12 +79,10 @@
         {
             NavigationManager.NavigateTo("/dashboard");
             UserService.loggedInUserName = user?.Username;
-
         }
         else
         {
             Message = "Invalid login credentials.";
         }
     }
-
 }

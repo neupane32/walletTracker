@@ -13,5 +13,9 @@ namespace practice.Models
         public string Type { get; set; }
         public decimal Amount { get; set; }
         public string Description { get; set; }
+
+        public string Tag { get; set; }
+
+        public string note { get; set; } 
     }
 }

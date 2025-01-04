@@ -4,21 +4,52 @@
 
 <h3>Transaction History</h3>
 
-<div class="row">
-    <div class="col-md-6">
-        <input type="text"
-               class="form-control"
-               placeholder="Search by Description"
-               @bind="searchTerm"
-               @oninput="ApplySearch" 
-               @onkeypress="HandleKeyPress"/>
+<div class="row mb-3">
+    <!-- Search by Description -->
+    <div class="col-md-3">
+        <input type="text" class="form-control" placeholder="Search by Description" @bind="searchTerm" @oninput="ApplySearch" />
     </div>
-</div>
+
+    <!-- Filter by Type -->
+    <div class="col-md-3">
+        <label>Filter by Type:</label>
+        <select class="form-control" @onchange="FilterByType">
+            <option value="">All</option>
+            <option value="Credit">Credit</option>
+            <option value="Debit">Debit</option>
+        </select>
+    </div>
+
+    <!-- Filter by Tag -->
+    <div class="col-md-3">
+        <label>Filter by Tag:</label>
+        <select class="form-control" @onchange="FilterByTag">
+            <option value="">All</option>
+            <option value="" disabled selected>Select a Tag</option>
+            <option value="Personal">Personal</option>
+            <option value="Business">Business</option>
+            <option value="Loan">Loan</option>
+            <option value="Investment">Investment</option>
+            <option value="Salary">Salary</option>
+            <option value="Miscellaneous">Miscellaneous</option>
+        </select>
+    </div>
+
+    <!-- Filter by Date Range -->
+@*     <div class="col-md-3"> *@
+@*         <div class="col-md-3"> *@
+@*             <label>Filter by Date Range:</label> *@
+@*             <div class="d-flex"> *@
+@*                 <input type="date" class="form-control" @onchange="(e) => FilterByDateRange(e, 'Start')" placeholder="Start Date" /> *@
+@*                 <input type="date" class="form-control ms-2" @onchange="(e) => FilterByDateRange(e, 'End')" placeholder="End Date" /> *@
+@*             </div> *@
+@*         </div> *@
+@* </div> *@
 
 @if (filteredTransactions?.Count > 0)
 {
-    <table class="table table-bordered table-hover table-sm mt-3" style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden;">
-        <thead class="thead-dark" style="background-color: #343a40; color: white;">
+    <table class="table table-bordered table-hover table-sm mt-3">
+        <thead class="thead-dark">
             <tr>
                 <th>Transaction Id</th>
                 <th>
@@ -37,35 +68,49 @@
                 <th>Transaction Type</th>
                 <th>Transaction Amount</th>
                 <th>Transaction Description</th>
+                <th>Tag</th>
+                <th>Remarks</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var transaction in filteredTransactions)
             {
                 <tr>
-                    <td>@transaction.Id</td>
+                    <td>@(++id)</td>
                     <td>@transaction.Date.ToString("yyyy-MM-dd HH:mm:ss")</td>
                     <td>@transaction.Type</td>
                     <td>@transaction.Amount</td>
                     <td>@transaction.Description</td>
+                    <td>@transaction.Tag</td>
+                    <td>@transaction.note</td>
                 </tr>
             }
+            <tr>
+                <td colspan="5" class="text-center">
+                    Total number of transactions done: @filteredTransactions.Count()
+                </td>
+            </tr>
         </tbody>
     </table>
-
 }
 else
 {
-    <p>No transcations yet.</p>
+    <p>No transactions yet.</p>
 }
 
 <button class="btn btn-danger mt-3" @onclick="ClearTransactionHistory">Delete History</button>
+</div>
 
 @code {
     private List<practice.Models.Transaction> Transactions = new();
     private List<practice.Models.Transaction> filteredTransactions = new();
     private string searchTerm = string.Empty;
+    private string selectedType = string.Empty;
+    private string selectedTag = string.Empty;
+    private DateTime? startDate;
+    private DateTime? endDate;
     private bool isDateSortedAscending = true;
+    private int id { get; set; } = 0;
 
     protected override void OnInitialized()
     {
@@ -93,24 +138,46 @@ else
 
     private void ApplySearch()
     {
-        if (string.IsNullOrWhiteSpace(searchTerm))
+        FilterTransactions();
+    }
+
+    private void FilterByType(ChangeEventArgs e)
+    {
+        selectedType = e.Value?.ToString() ?? string.Empty;
+        FilterTransactions();
+    }
+
+    private void FilterByTag(ChangeEventArgs e)
+    {
+        selectedTag = e.Value?.ToString() ?? string.Empty;
+        FilterTransactions();
+    }
+
+    private void FilterByDateRange(ChangeEventArgs e, string dateType)
+    {
+        if (DateTime.TryParse(e.Value?.ToString(), out var date))
         {
-            filteredTransactions = new List<practice.Models.Transaction>(Transactions);
-        }
-        else
-        {
-            filteredTransactions = Transactions
-                .Where(t => t.Type.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
-                .ToList();
+            if (dateType == "Start")
+            {
+                startDate = date;
+            }
+            else if (dateType == "End")
+            {
+                endDate = date;
+            }
+            FilterTransactions();
         }
     }
 
-    private void HandleKeyPress(KeyboardEventArgs e)
+    private void FilterTransactions()
     {
-        if (e.Key == "Enter")
-        {
-            ApplySearch();
-        }
+        filteredTransactions = Transactions
+            .Where(t => (string.IsNullOrEmpty(searchTerm) || (t.Description != null && t.Description.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))) &&
+                        (string.IsNullOrEmpty(selectedType) || (t.Type != null && t.Type.Equals(selectedType, StringComparison.OrdinalIgnoreCase))) &&
+                        (string.IsNullOrEmpty(selectedTag) || (t.Tag != null && t.Tag.Equals(selectedTag, StringComparison.OrdinalIgnoreCase))) &&
+                        (!startDate.HasValue || t.Date >= startDate.Value) &&
+                        (!endDate.HasValue || t.Date <= endDate.Value))
+            .ToList();
     }
 
     private void ClearTransactionHistory()
