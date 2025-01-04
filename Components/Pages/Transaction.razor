@@ -52,19 +52,22 @@
         <thead class="thead-dark">
             <tr>
                 <th>Transaction Id</th>
-                <th>
-                    <button class="btn btn-link text-white p-0" style="text-decoration: none;" @onclick="SortByDate">
-                        Transaction Date
-                        @if (isDateSortedAscending)
-                        {
-                            <span>&uarr;</span>
-                        }
-                        else
-                        {
-                            <span>&darr;</span>
-                        }
-                    </button>
-                </th>
+                    <th>
+                        <button class="btn btn-link text-black p-0" style="text-decoration: none;" @onclick="SortByDate">
+                            Transaction Date
+                            @if (isDateSortedAscending)
+                            {
+                                <span>&uarr;</span>
+                            }
+                            else
+                            {
+                                <span>&darr;</span>
+                            }
+                        </button>
+                    </th>
+
+
+        
                 <th>Transaction Type</th>
                 <th>Transaction Amount</th>
                 <th>Transaction Description</th>

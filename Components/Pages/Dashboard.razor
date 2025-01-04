@@ -178,7 +178,7 @@
 
     private void SubmitDebit()
     {
-        if (NewDebit > 0)
+        if (NewDebit > 0 && NewDebit <= CurrentUser.Credit)
         {
             UserService.UpdateDebit(UserService.loggedInUserName, NewDebit, Tag, note);
             CurrentUser = UserService.GetLoggedInUser();
@@ -188,7 +188,14 @@
         }
         else
         {
-            ErrorMessageDebit = "Please enter debit amount in integer format and greater than 0.";
+            if(NewDebit > CurrentUser.Credit)
+            {
+                ErrorMessageDebit = "Your debit can't be greater than your credit";
+            }
+            else
+            {
+                ErrorMessageDebit = "Please enter debit amount in integer format and greater than 0.";
+            }
         }
     }
 

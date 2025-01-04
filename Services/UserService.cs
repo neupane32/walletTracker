@@ -52,7 +52,7 @@ public class UserService
                 Amount = newCredit,
                 Description = $"Successfully added {newCredit} credits to the user account.",
                 Tag = Tag,
-                note = note
+                note = note,
             });
 
             SaveUsers(users);
