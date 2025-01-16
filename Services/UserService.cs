@@ -52,7 +52,7 @@ public class UserService
                 Amount = newCredit,
                 Description = $"Successfully added {newCredit} credits to the user account.",
                 Tag = Tag,
-                note = note,
+                Note = note,
             });
 
             SaveUsers(users);
@@ -84,7 +84,7 @@ public class UserService
                 Amount = newDebit,
                 Description = $"Successfully debited {newDebit} from the user account.",
                 Tag = Tag,
-                note = note
+                Note = note,
             });
 
             SaveUsers(users);
@@ -112,8 +112,8 @@ public class UserService
                 Type = "Debt",
                 Amount = newDebt,
                 Description = $"Successfully recorded a debt of {newDebt} to the user account.",
-                Tag = Tag, 
-                note = note
+                Tag = Tag,
+                Note = note,
 
             });
 

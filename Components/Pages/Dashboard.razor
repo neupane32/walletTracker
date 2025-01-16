@@ -1,130 +1,112 @@
 ﻿@page "/dashboard"
 @using practice.Models
+@using System.Globalization
 @inject NavigationManager NavigationManager
 @inject UserService UserService
 
 <div class="container-fluid mt-4">
     <h3 class="text-center mb-4">Welcome back, @UserService.loggedInUserName!</h3>
 
-    <div class="row justify-content-center">
-        <!-- Credit Box -->
-        <div class="col-12 mb-4">
-            <div class="card shadow-lg rounded-3 border-light">
-                <div class="card-header bg-primary text-white text-center">
-                    <h5>Credit Balance</h5>
-                </div>
-                <div class="card-body text-center">
-                    <h5 class="card-title">@UserService.loggedInUserName's Credit Balance</h5>
-                    <p class="card-text display-6 text-success fw-bold">@CurrentUser?.Credit</p>
-                    <button class="btn btn-outline-primary mt-3" @onclick="ShowInputField">Insert Credit</button>
+    <input type="text"
+    class="form-control shadow-sm mt-3"
+    placeholder="Filter by transaction type."
+    @bind="searchTerm"
+    @oninput="ApplySearch"   />
 
-                    @if (IsInputVisible)
-                    {
-                        <div class="mt-4">
-                            <input type="number" class="form-control mb-2" @bind="NewCredit" placeholder="Enter credit amount">
-                            <select class="form-select mb-2" @bind="Tag">
-                                <option value="" disabled selected>Select a Tag</option>
-                                <option value="Personal">Personal</option>
-                                <option value="Business">Business</option>
-                                <option value="Loan">Loan</option>
-                                <option value="Investment">Investment</option>
-                                <option value="Salary">Salary</option>
-                                <option value="Miscellaneous">Miscellaneous</option>
-                            </select>
-                            <input type="text" class="form-control mb-2" @bind="note" placeholder="Remarks">
-                            <button class="btn btn-primary" @onclick="SubmitCredit">Insert</button>
-                            <button class="btn btn-outline-secondary ms-2" @onclick="HideInputField">Discard</button>
-                        </div>
-                    }
+    <div class="row mt-5">
+        <!-- Credit Card -->
+        @if (string.IsNullOrEmpty(searchTerm) || searchTerm.Contains("Credit", StringComparison.OrdinalIgnoreCase))
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card text-white bg-success shadow-lg futuristic-card">
+                    <div class="card-header text-center fw-bold">Credit</div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Your Credit Balance</h5>
+                        <p class="card-text text-center display-6">
+                            @CurrentUser?.Credit.ToString("C", new CultureInfo("us-US"))
+                        </p>
+                        <button class="btn btn-outline-light mt-3" @onclick="ShowInputField">Add Credit</button>
 
-                    @if (!string.IsNullOrEmpty(ErrorMessage))
-                    {
-                        <div class="text-danger mt-2">@ErrorMessage</div>
-                    }
-                </div>
-            </div>
-        </div>
-
-        <!-- Debit Box -->
-        <div class="col-12 mb-4">
-            <div class="card shadow-lg rounded-3 border-light">
-                <div class="card-header bg-warning text-dark text-center">
-                    <h5>Debit Balance</h5>
-                </div>
-                <div class="card-body text-center">
-                    <h5 class="card-title">@UserService.loggedInUserName's Debit Balance</h5>
-                    <p class="card-text display-6 text-danger fw-bold">@CurrentUser?.Debit</p>
-                    <button class="btn btn-outline-warning mt-3" @onclick="ShowInputFieldDebit">Insert Debit</button>
-
-                    @if (IsInputVisibleDebit)
-                    {
-                        <div class="mt-4">
-                            <input type="number" class="form-control mb-2" @bind="NewDebit" placeholder="Enter debit amount">
-                            <select class="form-select mb-2" @bind="Tag">
-                                <option value="" disabled selected>Select a Tag</option>
-                                <option value="Personal">Personal</option>
-                                <option value="Business">Business</option>
-                                <option value="Loan">Loan</option>
-                                <option value="Investment">Investment</option>
-                                <option value="Salary">Salary</option>
-                                <option value="Miscellaneous">Miscellaneous</option>
-                            </select>
-                            <input type="text" class="form-control mb-2" @bind="note" placeholder="Remarks">
-                            <button class="btn btn-warning" @onclick="SubmitDebit">Insert</button>
-                            <button class="btn btn-outline-secondary ms-2" @onclick="HideInputFieldDebit">Discard</button>
-                        </div>
-                    }
-
-                    @if (!string.IsNullOrEmpty(ErrorMessageDebit))
-                    {
-                        <div class="text-danger mt-2">@ErrorMessageDebit</div>
-                    }
-                </div>
-            </div>
-        </div>
-
-        <!-- Debt Box -->
-        <div class="col-12 mb-4">
-            <div class="card shadow-lg rounded-3 border-light">
-                <div class="card-header bg-danger text-white text-center">
-                    <h5>Debt Balance</h5>
-                </div>
-                <div class="card-body text-center">
-                    <h5 class="card-title">@UserService.loggedInUserName's Debt Balance</h5>
-                    <p class="card-text display-6 text-danger fw-bold">@CurrentUser?.Debt</p>
-                    <button class="btn btn-outline-danger btn-sm mt-3" @onclick="ShowInputFieldDept">Insert Debt</button>
-
-                    @if (IsInputVisibleDebt)
-                    {
-                        <div class="mt-4">
-                            <input type="number" class="form-control form-control-sm mb-2" @bind="NewDebt" placeholder="Enter debt amount">
-                            <select class="form-select mb-2" @bind="Tag">
-                                <option value="" disabled selected>Select a Tag</option>
-                                <option value="Personal">Personal</option>
-                                <option value="Business">Business</option>
-                                <option value="Loan">Loan</option>
-                                <option value="Investment">Investment</option>
-                                <option value="Salary">Salary</option>
-                                <option value="Miscellaneous">Miscellaneous</option>
-                            </select>
-                            <input type="text" class="form-control mb-2" @bind="note" placeholder="Remarks">
-                            <div class="d-flex justify-content-between">
-                                <button class="btn btn-primary btn-sm" @onclick="SubmitDebt">Insert</button>
-                                <button class="btn btn-secondary btn-sm" @onclick="HideInputFieldDept">Discard</button>
+                        @if (IsInputVisible)
+                        {
+                            <div class="mt-4">
+                                <input type="number" class="form-control mb-3" @bind="NewCredit" placeholder="Enter credit amount">
+                                <select class="form-select mb-3" @bind="Tag">
+                                    <option>Select a tag</option>
+                                    <option>Salary</option>
+                                    <option>Others</option>
+                                </select>
+                                <input type="text" class="form-control mb-3" @bind="Note" placeholder="Remarks">
+                                <button class="btn btn-primary" @onclick="SubmitCredit">Submit</button>
+                                <button class="btn btn-secondary" @onclick="HideInputField">Cancel</button>
                             </div>
-                        </div>
-                    }
-
-                    @if (!string.IsNullOrEmpty(ErrorMessageDebt))
-                    {
-                        <div class="mt-2 text-danger" style="font-size: 0.9rem;">@ErrorMessageDebt</div>
-                    }
-
-                    <button class="btn btn-outline-danger btn-sm mt-3 ms-2" @onclick="ClearDebtBalance">Pay Debt</button>
+                        }
+                    </div>
                 </div>
             </div>
-        </div>
+        }
+
+        <!-- Debit Card -->
+        @if (string.IsNullOrEmpty(searchTerm) || searchTerm.Contains("Debit", StringComparison.OrdinalIgnoreCase))
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card text-white bg-dark shadow-lg futuristic-card">
+                    <div class="card-header text-center fw-bold">Debit</div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Your Debit Balance</h5>
+                        <p class="card-text text-center display-6">
+                            @CurrentUser?.Debit.ToString("C", new CultureInfo("us-US"))
+                        </p>
+                        <button class="btn btn-outline-light mt-3" @onclick="ShowInputFieldDebit">Add Debit</button>
+
+                        @if (IsInputVisibleDebit)
+                        {
+                            <div class="mt-4">
+                                <input type="number" class="form-control mb-3" @bind="NewDebit" placeholder="Enter debit amount">
+                                <select class="form-select mb-3" @bind="Tag">
+                                    <option>Select a tag</option>
+                                    <option>Groceries</option>
+                                    <option>Rent</option>
+                                    <option>Others</option>
+                                </select>
+                                <input type="text" class="form-control mb-3" @bind="Note" placeholder="Remarks">
+                                <button class="btn btn-primary" @onclick="SubmitDebit">Submit</button>
+                                <button class="btn btn-secondary" @onclick="HideInputFieldDebit">Cancel</button>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+
+        <!-- Debt Card -->
+        @if (string.IsNullOrEmpty(searchTerm) || searchTerm.Contains("Debt", StringComparison.OrdinalIgnoreCase))
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card text-white bg-danger shadow-lg futuristic-card">
+                    <div class="card-header text-center fw-bold">Debt</div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Your Debt Balance</h5>
+                        <p class="card-text text-center display-6">
+                            @CurrentUser?.Debt.ToString("C", new CultureInfo("us-US"))
+                        </p>
+                        <button class="btn btn-outline-light mt-3" @onclick="ShowInputFieldDept">Add Debt</button>
+                        <button class="btn btn-warning mt-3" @onclick="ClearDebtBalance">Clear Debt</button>
+
+                        @if (IsInputVisibleDebt)
+                        {
+                            <div class="mt-4">
+                                <input type="number" class="form-control mb-3" @bind="NewDebt" placeholder="Enter debt amount">
+                                <button class="btn btn-primary" @onclick="SubmitDebt">Submit</button>
+                                <button class="btn btn-secondary" @onclick="HideInputFieldDept">Cancel</button>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
     </div>
+
 
     @if (CurrentUser?.Debt > 0)
     {
@@ -142,11 +124,12 @@
     private bool IsInputVisibleDebit { get; set; } = false;
     private bool IsInputVisibleDebt { get; set; } = false;
     private string ErrorMessage { get; set; } = string.Empty;
-    private string Tag { get; set; } = string.Empty;
-    private string note { get; set; } = string.Empty;
+    private string Tag { get; set; }
+    private string Note { get; set; }
     private string ErrorMessageDebit { get; set; } = string.Empty;
     private string ErrorMessageDebt { get; set; } = string.Empty;
     private User? CurrentUser { get; set; }
+    private string searchTerm = string.Empty;
 
     protected override void OnInitialized()
     {
@@ -160,11 +143,16 @@
     private void HideInputFieldDebit() => IsInputVisibleDebit = false;
     private void HideInputFieldDept() => IsInputVisibleDebt = false;
 
+    private void ApplySearch()
+    {
+        StateHasChanged();
+    }
+
     private void SubmitCredit()
     {
         if (NewCredit > 0)
         {
-            UserService.UpdateCredit(UserService.loggedInUserName, NewCredit, Tag, note);
+            UserService.UpdateCredit(UserService.loggedInUserName, NewCredit, Tag, Note);
             CurrentUser = UserService.GetLoggedInUser();
             NewCredit = 0;
             IsInputVisible = false;
@@ -180,7 +168,7 @@
     {
         if (NewDebit > 0 && NewDebit <= CurrentUser.Credit)
         {
-            UserService.UpdateDebit(UserService.loggedInUserName, NewDebit, Tag, note);
+            UserService.UpdateDebit(UserService.loggedInUserName, NewDebit, Tag, Note);
             CurrentUser = UserService.GetLoggedInUser();
             NewDebit = 0;
             IsInputVisibleDebit = false;
@@ -203,7 +191,7 @@
     {
         if (NewDebt > 0)
         {
-            UserService.UpdateDebt(UserService.loggedInUserName, NewDebt, Tag, note);
+            UserService.UpdateDebt(UserService.loggedInUserName, NewDebt, Tag, Note);
             CurrentUser = UserService.GetLoggedInUser();
             NewDebt = 0;
             IsInputVisibleDebt = false;

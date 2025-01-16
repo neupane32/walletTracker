@@ -2013,7 +2013,6 @@ D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\sc
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\h5tmtzvkk7-e5tk7yf482.gz
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\qy0quqqzev-6gzpyzhau4.gz
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\phghmf4tss-8inm30yfxf.gz
-D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\lukbkd53wh-mij3y71tqv.gz
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\60ikskirtt-c69jagxj4a.gz
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\u6wqrx5djw-c69jagxj4a.gz
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\staticwebassets.build.json
@@ -2031,7 +2030,6 @@ D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\co
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\h5tmtzvkk7-e5tk7yf482.br
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\qy0quqqzev-6gzpyzhau4.br
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\phghmf4tss-8inm30yfxf.br
-D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\lukbkd53wh-mij3y71tqv.br
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\staticwebassets.publish.json
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\staticwebassets.publish.endpoints.json
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
@@ -2132,3 +2130,5 @@ D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\pr
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\lukbkd53wh-3jclexyx4f.gz
+D:\ad coursework\walletTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\lukbkd53wh-3jclexyx4f.br

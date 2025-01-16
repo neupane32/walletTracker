@@ -16,6 +16,6 @@ namespace practice.Models
 
         public string Tag { get; set; }
 
-        public string note { get; set; } 
+        public string Note { get; set; } 
     }
 }

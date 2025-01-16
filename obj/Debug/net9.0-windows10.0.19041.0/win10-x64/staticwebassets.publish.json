@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KuJFHd+/Uec4mBvQPmWczcNCnhvVseQEjYkFJbp4BUs=",
+  "Hash": "3oKFRcpu8/a2fczYIJHqoxdy/AwlzGxpU4p7S+4GsEo=",
   "Source": "practice",
   "BasePath": "/",
   "Mode": "Root",
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "D:\\ad coursework\\walletTracker\\wwwroot\\css\\app.css"
     },
     {
-      "Identity": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
+      "Identity": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-3jclexyx4f.gz",
       "SourceId": "practice",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "index#[.{fingerprint=mij3y71tqv}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=3jclexyx4f}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "D:\\ad coursework\\walletTracker\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jzojcpo7l2",
-      "Integrity": "wSpqPIEGwiKCw8NzteZa7KPRsUoYpyNpxcSWNW3VmgA=",
+      "Fingerprint": "wbn7c3hu2d",
+      "Integrity": "3HnKxJfa/3l75c16x/ZGpI2EG5OvYAkx+rcJkhzd1aw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\ad coursework\\walletTracker\\wwwroot\\index.html"
@@ -143,12 +143,12 @@
       "OriginalItemSpec": "D:\\ad coursework\\walletTracker\\wwwroot\\css\\app.css"
     },
     {
-      "Identity": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
+      "Identity": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\lukbkd53wh-3jclexyx4f.br",
       "SourceId": "practice",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\",
       "BasePath": "/",
-      "RelativePath": "index#[.{fingerprint=mij3y71tqv}]?.html.br",
+      "RelativePath": "index#[.{fingerprint=3jclexyx4f}]?.html.br",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -157,8 +157,8 @@
       "RelatedAsset": "D:\\ad coursework\\walletTracker\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "jamipcg050",
-      "Integrity": "W6rT5gGiAmFahCtFZ2FdKj0k6xAt2IuHIY9gjbEJoB4=",
+      "Fingerprint": "7ue1xzkz7z",
+      "Integrity": "Xy7G7ZcikFAnPzBoNFdblh6PWDmQ1AsVGSJjhgZsHh4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\ad coursework\\walletTracker\\wwwroot\\index.html"
@@ -388,8 +388,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mij3y71tqv",
-      "Integrity": "ckw5hL/jDNmite/HitTI6C+6/hNXnhgSycfzAmrTG4s=",
+      "Fingerprint": "3jclexyx4f",
+      "Integrity": "UXs0Z3tmU1mp8md+JxkOiclre9Px+DYH+JS3mIPeglg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -1939,13 +1939,13 @@
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
+      "Route": "index.3jclexyx4f.html",
+      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-3jclexyx4f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002109704641"
+          "Quality": "0.000934579439"
         }
       ],
       "ResponseHeaders": [
@@ -1955,19 +1955,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "473"
+          "Value": "1069"
         },
         {
           "Name": "ETag",
-          "Value": "\"wSpqPIEGwiKCw8NzteZa7KPRsUoYpyNpxcSWNW3VmgA=\""
+          "Value": "\"3HnKxJfa/3l75c16x/ZGpI2EG5OvYAkx+rcJkhzd1aw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 09:09:20 GMT"
+          "Value": "Thu, 16 Jan 2025 07:57:50 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -1983,24 +1983,32 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ckw5hL/jDNmite/HitTI6C+6/hNXnhgSycfzAmrTG4s=\""
+          "Value": "W/\"UXs0Z3tmU1mp8md+JxkOiclre9Px+DYH+JS3mIPeglg=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "3jclexyx4f"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-ckw5hL/jDNmite/HitTI6C+6/hNXnhgSycfzAmrTG4s="
+          "Value": "sha256-UXs0Z3tmU1mp8md+JxkOiclre9Px+DYH+JS3mIPeglg="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
+      "Route": "index.3jclexyx4f.html",
+      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\lukbkd53wh-3jclexyx4f.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.002941176471"
+          "Quality": "0.001170960187"
         }
       ],
       "ResponseHeaders": [
@@ -2010,19 +2018,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "339"
+          "Value": "853"
         },
         {
           "Name": "ETag",
-          "Value": "\"W6rT5gGiAmFahCtFZ2FdKj0k6xAt2IuHIY9gjbEJoB4=\""
+          "Value": "\"Xy7G7ZcikFAnPzBoNFdblh6PWDmQ1AsVGSJjhgZsHh4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 09:09:20 GMT"
+          "Value": "Thu, 16 Jan 2025 07:57:50 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -2038,18 +2046,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ckw5hL/jDNmite/HitTI6C+6/hNXnhgSycfzAmrTG4s=\""
+          "Value": "W/\"UXs0Z3tmU1mp8md+JxkOiclre9Px+DYH+JS3mIPeglg=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "3jclexyx4f"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-ckw5hL/jDNmite/HitTI6C+6/hNXnhgSycfzAmrTG4s="
+          "Value": "sha256-UXs0Z3tmU1mp8md+JxkOiclre9Px+DYH+JS3mIPeglg="
         }
       ]
     },
     {
-      "Route": "index.html",
+      "Route": "index.3jclexyx4f.html",
       "AssetFile": "D:\\ad coursework\\walletTracker\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2059,7 +2075,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "955"
+          "Value": "3086"
         },
         {
           "Name": "Content-Type",
@@ -2067,264 +2083,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ckw5hL/jDNmite/HitTI6C+6/hNXnhgSycfzAmrTG4s=\""
+          "Value": "\"UXs0Z3tmU1mp8md+JxkOiclre9Px+DYH+JS3mIPeglg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 09:09:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ckw5hL/jDNmite/HitTI6C+6/hNXnhgSycfzAmrTG4s="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.br",
-      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "339"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"W6rT5gGiAmFahCtFZ2FdKj0k6xAt2IuHIY9gjbEJoB4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 09:09:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-W6rT5gGiAmFahCtFZ2FdKj0k6xAt2IuHIY9gjbEJoB4="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "473"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wSpqPIEGwiKCw8NzteZa7KPRsUoYpyNpxcSWNW3VmgA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 09:09:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wSpqPIEGwiKCw8NzteZa7KPRsUoYpyNpxcSWNW3VmgA="
-        }
-      ]
-    },
-    {
-      "Route": "index.mij3y71tqv.html",
-      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002109704641"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "473"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wSpqPIEGwiKCw8NzteZa7KPRsUoYpyNpxcSWNW3VmgA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 09:09:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ckw5hL/jDNmite/HitTI6C+6/hNXnhgSycfzAmrTG4s=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mij3y71tqv"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ckw5hL/jDNmite/HitTI6C+6/hNXnhgSycfzAmrTG4s="
-        }
-      ]
-    },
-    {
-      "Route": "index.mij3y71tqv.html",
-      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "br",
-          "Quality": "0.002941176471"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "339"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"W6rT5gGiAmFahCtFZ2FdKj0k6xAt2IuHIY9gjbEJoB4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 09:09:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ckw5hL/jDNmite/HitTI6C+6/hNXnhgSycfzAmrTG4s=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mij3y71tqv"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ckw5hL/jDNmite/HitTI6C+6/hNXnhgSycfzAmrTG4s="
-        }
-      ]
-    },
-    {
-      "Route": "index.mij3y71tqv.html",
-      "AssetFile": "D:\\ad coursework\\walletTracker\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "955"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ckw5hL/jDNmite/HitTI6C+6/hNXnhgSycfzAmrTG4s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 09:09:20 GMT"
+          "Value": "Thu, 16 Jan 2025 07:57:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2334,7 +2097,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mij3y71tqv"
+          "Value": "3jclexyx4f"
         },
         {
           "Name": "label",
@@ -2342,13 +2105,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ckw5hL/jDNmite/HitTI6C+6/hNXnhgSycfzAmrTG4s="
+          "Value": "sha256-UXs0Z3tmU1mp8md+JxkOiclre9Px+DYH+JS3mIPeglg="
         }
       ]
     },
     {
-      "Route": "index.mij3y71tqv.html.br",
-      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\lukbkd53wh-mij3y71tqv.br",
+      "Route": "index.3jclexyx4f.html.br",
+      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\lukbkd53wh-3jclexyx4f.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2357,7 +2120,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "339"
+          "Value": "853"
         },
         {
           "Name": "Content-Type",
@@ -2365,11 +2128,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"W6rT5gGiAmFahCtFZ2FdKj0k6xAt2IuHIY9gjbEJoB4=\""
+          "Value": "\"Xy7G7ZcikFAnPzBoNFdblh6PWDmQ1AsVGSJjhgZsHh4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 09:09:20 GMT"
+          "Value": "Thu, 16 Jan 2025 07:57:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2387,7 +2150,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mij3y71tqv"
+          "Value": "3jclexyx4f"
         },
         {
           "Name": "label",
@@ -2395,13 +2158,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-W6rT5gGiAmFahCtFZ2FdKj0k6xAt2IuHIY9gjbEJoB4="
+          "Value": "sha256-Xy7G7ZcikFAnPzBoNFdblh6PWDmQ1AsVGSJjhgZsHh4="
         }
       ]
     },
     {
-      "Route": "index.mij3y71tqv.html.gz",
-      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-mij3y71tqv.gz",
+      "Route": "index.3jclexyx4f.html.gz",
+      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-3jclexyx4f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2410,7 +2173,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "473"
+          "Value": "1069"
         },
         {
           "Name": "Content-Type",
@@ -2418,11 +2181,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wSpqPIEGwiKCw8NzteZa7KPRsUoYpyNpxcSWNW3VmgA=\""
+          "Value": "\"3HnKxJfa/3l75c16x/ZGpI2EG5OvYAkx+rcJkhzd1aw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 09:09:20 GMT"
+          "Value": "Thu, 16 Jan 2025 07:57:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2440,7 +2203,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mij3y71tqv"
+          "Value": "3jclexyx4f"
         },
         {
           "Name": "label",
@@ -2448,7 +2211,244 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wSpqPIEGwiKCw8NzteZa7KPRsUoYpyNpxcSWNW3VmgA="
+          "Value": "sha256-3HnKxJfa/3l75c16x/ZGpI2EG5OvYAkx+rcJkhzd1aw="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-3jclexyx4f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000934579439"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1069"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3HnKxJfa/3l75c16x/ZGpI2EG5OvYAkx+rcJkhzd1aw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 07:57:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UXs0Z3tmU1mp8md+JxkOiclre9Px+DYH+JS3mIPeglg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UXs0Z3tmU1mp8md+JxkOiclre9Px+DYH+JS3mIPeglg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\lukbkd53wh-3jclexyx4f.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.001170960187"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "853"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xy7G7ZcikFAnPzBoNFdblh6PWDmQ1AsVGSJjhgZsHh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 07:57:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UXs0Z3tmU1mp8md+JxkOiclre9Px+DYH+JS3mIPeglg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UXs0Z3tmU1mp8md+JxkOiclre9Px+DYH+JS3mIPeglg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\ad coursework\\walletTracker\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UXs0Z3tmU1mp8md+JxkOiclre9Px+DYH+JS3mIPeglg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 07:57:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UXs0Z3tmU1mp8md+JxkOiclre9Px+DYH+JS3mIPeglg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.br",
+      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\lukbkd53wh-3jclexyx4f.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "853"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xy7G7ZcikFAnPzBoNFdblh6PWDmQ1AsVGSJjhgZsHh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 07:57:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xy7G7ZcikFAnPzBoNFdblh6PWDmQ1AsVGSJjhgZsHh4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "D:\\ad coursework\\walletTracker\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\lukbkd53wh-3jclexyx4f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1069"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3HnKxJfa/3l75c16x/ZGpI2EG5OvYAkx+rcJkhzd1aw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 07:57:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3HnKxJfa/3l75c16x/ZGpI2EG5OvYAkx+rcJkhzd1aw="
         }
       ]
     },

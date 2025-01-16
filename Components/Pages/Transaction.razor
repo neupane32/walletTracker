@@ -1,59 +1,55 @@
 ﻿@page "/transaction"
 @using practice.Models
+@using System.Globalization
 @inject UserService UserService
+@inject IJSRuntime JSRuntime
 
-<h3>Transaction History</h3>
+<h3 class="text-center mt-4">Transaction History</h3>
 
-<div class="row mb-3">
-    <!-- Search by Description -->
-    <div class="col-md-3">
-        <input type="text" class="form-control" placeholder="Search by Description" @bind="searchTerm" @oninput="ApplySearch" />
+<div class="container mt-4">
+    <div class="row mb-3">
+        <!-- Search by Description -->
+        <div class="col-md-3">
+            <input type="text" class="form-control" placeholder="Search by Description" @bind="searchTerm" @oninput="ApplySearch" />
+        </div>
+
+        <!-- Filter by Type -->
+        <div class="col-md-3">
+            <label for="typeFilter">Filter by Type:</label>
+            <select id="typeFilter" class="form-select" @onchange="FilterByType">
+                <option value="">All</option>
+                <option value="Credit">Credit</option>
+                <option value="Debit">Debit</option>
+            </select>
+        </div>
+
+        <!-- Filter by Tag -->
+        <div class="col-md-3">
+            <label for="tagFilter">Filter by Tag:</label>
+            <select id="tagFilter" class="form-select" @onchange="FilterByTag">
+                <option value="">All</option>
+                <option value="Personal">Personal</option>
+                <option value="Business">Business</option>
+                <option value="Loan">Loan</option>
+                <option value="Investment">Investment</option>
+                <option value="Salary">Salary</option>
+                <option value="Miscellaneous">Miscellaneous</option>
+            </select>
+        </div>
     </div>
 
-    <!-- Filter by Type -->
-    <div class="col-md-3">
-        <label>Filter by Type:</label>
-        <select class="form-control" @onchange="FilterByType">
-            <option value="">All</option>
-            <option value="Credit">Credit</option>
-            <option value="Debit">Debit</option>
-        </select>
-    </div>
+    <button class="btn btn-secondary" @onclick="downloadTable">Download Table in pdf</button>
+    <button class="btn btn-secondary" @onclick="DownloadTableAsExcel">Download Table in excel</button>
 
-    <!-- Filter by Tag -->
-    <div class="col-md-3">
-        <label>Filter by Tag:</label>
-        <select class="form-control" @onchange="FilterByTag">
-            <option value="">All</option>
-            <option value="" disabled selected>Select a Tag</option>
-            <option value="Personal">Personal</option>
-            <option value="Business">Business</option>
-            <option value="Loan">Loan</option>
-            <option value="Investment">Investment</option>
-            <option value="Salary">Salary</option>
-            <option value="Miscellaneous">Miscellaneous</option>
-        </select>
-    </div>
 
-    <!-- Filter by Date Range -->
-@*     <div class="col-md-3"> *@
-@*         <div class="col-md-3"> *@
-@*             <label>Filter by Date Range:</label> *@
-@*             <div class="d-flex"> *@
-@*                 <input type="date" class="form-control" @onchange="(e) => FilterByDateRange(e, 'Start')" placeholder="Start Date" /> *@
-@*                 <input type="date" class="form-control ms-2" @onchange="(e) => FilterByDateRange(e, 'End')" placeholder="End Date" /> *@
-@*             </div> *@
-@*         </div> *@
-@* </div> *@
-
-@if (filteredTransactions?.Count > 0)
-{
-    <table class="table table-bordered table-hover table-sm mt-3">
-        <thead class="thead-dark">
-            <tr>
-                <th>Transaction Id</th>
+    @if (filteredTransactions?.Count > 0)
+    {
+        <table class="table table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Transaction Id</th>
                     <th>
-                        <button class="btn btn-link text-black p-0" style="text-decoration: none;" @onclick="SortByDate">
+                        <button class="btn btn-link text-light p-0" style="text-decoration: none;" @onclick="SortByDate">
                             Transaction Date
                             @if (isDateSortedAscending)
                             {
@@ -65,9 +61,46 @@
                             }
                         </button>
                     </th>
+                    <th>Transaction Type</th>
+                    <th>Transaction Amount</th>
+                    <th>Transaction Description</th>
+                    <th>Tag</th>
+                    <th>Remarks</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var transaction in filteredTransactions)
+                {
+                    <tr>
+                        <td>@(++id)</td>
+                        <td>@transaction.Date.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                        <td>@transaction.Type</td>
+                        <td>@transaction.Amount.ToString("C", new CultureInfo("us-US"))</td>
+                        <td>@transaction.Description</td>
+                        <td>@transaction.Tag</td>
+                        <td>@transaction.Note</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
 
+        <p class="text-center mt-3">Total number of transactions: <b>@filteredTransactions.Count()</b></p>
+    }
+    else
+    {
+        <div class="alert alert-info text-center" role="alert">
+            No transactions found.
+        </div>
+    }
 
-        
+    <button class="btn btn-danger mt-3" @onclick="ClearTransactionHistory">Delete History</button>
+
+    <h4 class="mt-5">Highest Transactions</h4>
+    <table class="table table-striped table-hover mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>Transaction Id</th>
+                <th>Transaction Date</th>
                 <th>Transaction Type</th>
                 <th>Transaction Amount</th>
                 <th>Transaction Description</th>
@@ -76,32 +109,49 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var transaction in filteredTransactions)
+            @foreach (var transaction in filteredTransactions.Where(Transaction => Transaction.Amount > 10000))
             {
                 <tr>
                     <td>@(++id)</td>
                     <td>@transaction.Date.ToString("yyyy-MM-dd HH:mm:ss")</td>
                     <td>@transaction.Type</td>
-                    <td>@transaction.Amount</td>
+                    <td>@transaction.Amount.ToString("C", new CultureInfo("us-US"))</td>
                     <td>@transaction.Description</td>
                     <td>@transaction.Tag</td>
-                    <td>@transaction.note</td>
+                    <td>@transaction.Note</td>
                 </tr>
             }
-            <tr>
-                <td colspan="5" class="text-center">
-                    Total number of transactions done: @filteredTransactions.Count()
-                </td>
-            </tr>
         </tbody>
     </table>
-}
-else
-{
-    <p>No transactions yet.</p>
-}
 
-<button class="btn btn-danger mt-3" @onclick="ClearTransactionHistory">Delete History</button>
+    <h4 class="mt-5">Lowest Transactions</h4>
+    <table class="table table-striped table-hover mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>Transaction Id</th>
+                <th>Transaction Date</th>
+                <th>Transaction Type</th>
+                <th>Transaction Amount</th>
+                <th>Transaction Description</th>
+                <th>Tag</th>
+                <th>Remarks</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var transaction in filteredTransactions.Where(Transaction => Transaction.Amount < 500))
+            {
+                <tr>
+                    <td>@(++id)</td>
+                    <td>@transaction.Date.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@transaction.Type</td>
+                    <td>@transaction.Amount.ToString("C", new CultureInfo("us-US"))</td>
+                    <td>@transaction.Description</td>
+                    <td>@transaction.Tag</td>
+                    <td>@transaction.Note</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
 
 @code {
@@ -125,6 +175,49 @@ else
             filteredTransactions = new List<practice.Models.Transaction>(Transactions);
         }
     }
+
+    private async Task downloadTable()
+    {
+        var transactions = UserService.GetUserTransactions(UserService.loggedInUserName);
+
+        var transactionData = transactions.Select(t => new
+        {
+            id = t.Id,
+            date = t.Date.ToString("yyyy-MM-dd HH:mm:ss"),
+            amount = t.Amount,
+            type = t.Type,
+            description = t.Description,
+            tag = t.Tag,
+            remarks = t.Note
+        }).ToList();
+        try
+        {
+            await JSRuntime.InvokeVoidAsync("generatePDFWithBlob", transactionData);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error calling JavaScript: {ex.Message}");
+        }
+
+    }
+
+    private async Task DownloadTableAsExcel()
+    {
+        var transactions = UserService.GetUserTransactions(UserService.loggedInUserName);
+
+        var transactionData = transactions.Select(t => new
+        {
+            Id = t.Id,
+            Date = t.Date.ToString("yyyy-MM-dd HH:mm:ss"),
+            Amount = t.Amount,
+            Type = t.Type,
+            Tag = t.Tag,
+            Remarks = t.Note
+        }).ToList();
+
+        await JSRuntime.InvokeVoidAsync("generateExcel", transactionData);
+    }
+
 
     private void SortByDate()
     {
@@ -156,30 +249,12 @@ else
         FilterTransactions();
     }
 
-    private void FilterByDateRange(ChangeEventArgs e, string dateType)
-    {
-        if (DateTime.TryParse(e.Value?.ToString(), out var date))
-        {
-            if (dateType == "Start")
-            {
-                startDate = date;
-            }
-            else if (dateType == "End")
-            {
-                endDate = date;
-            }
-            FilterTransactions();
-        }
-    }
-
     private void FilterTransactions()
     {
         filteredTransactions = Transactions
             .Where(t => (string.IsNullOrEmpty(searchTerm) || (t.Description != null && t.Description.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))) &&
                         (string.IsNullOrEmpty(selectedType) || (t.Type != null && t.Type.Equals(selectedType, StringComparison.OrdinalIgnoreCase))) &&
-                        (string.IsNullOrEmpty(selectedTag) || (t.Tag != null && t.Tag.Equals(selectedTag, StringComparison.OrdinalIgnoreCase))) &&
-                        (!startDate.HasValue || t.Date >= startDate.Value) &&
-                        (!endDate.HasValue || t.Date <= endDate.Value))
+                        (string.IsNullOrEmpty(selectedTag) || (t.Tag != null && t.Tag.Equals(selectedTag, StringComparison.OrdinalIgnoreCase))))
             .ToList();
     }
 

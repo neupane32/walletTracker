@@ -25,6 +25,66 @@
     </div>
 
     <script src="_framework/blazor.webview.js" autostart="false"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script>
+        async function generatePDFWithBlob(transactionData) {
+            const { jsPDF } = window.jspdf;
+
+            const doc = new jsPDF();
+
+            doc.setFont("helvetica", "bold");
+            doc.setFontSize(16);
+            doc.text("Transaction History", 20, 20);
+
+            const colTitles = ["Transaction Id", "Transaction Date", "Transaction Amount", "Transaction Type", "Tag", "Note"];
+            const tableRows = transactionData.map((transaction) => [
+                transaction.id,
+                transaction.date,
+                transaction.amount,
+                transaction.type,
+                transaction.tag,
+                transaction.remarks,
+            ]);
+
+            doc.autoTable({
+                head: [colTitles],
+                body: tableRows,
+                startY: 30,
+                styles: {
+                    font: "helvetica",
+                    fontSize: 9,
+                    cellPadding: 3,
+                },
+                headStyles: {
+                    fillColor: [0, 123, 255],
+                    textColor: 255,
+                    halign: "center",
+                },
+                bodyStyles: {
+                    fillColor: [245, 245, 245],
+                    textColor: [0, 0, 0],
+                },
+            });
+
+            doc.save("TransactionHistory.pdf");
+        }
+    </script>
+
+    <script>
+        async function generateExcel(transactionData) {
+            const worksheet = XLSX.utils.json_to_sheet(transactionData);
+
+            const workbook = XLSX.utils.book_new();
+
+            XLSX.utils.book_append_sheet(workbook, worksheet, "Transaction History");
+
+            XLSX.writeFile(workbook, "TransactionHistory.xlsx");
+        }
+    </script>
+
+
 
 </body>
 
